@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <a href="https://www.flaticon.es/autores/freepik" title="Freepik"></a><a href="https://www.flaticon.es/" title="Flaticon"></a>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body style="background-color: black; font-family: candara; font-weight: bold;">
+    
+    <form action="procesar.php" style="margin-left: 20%; margin-right: 25% ; background-color: white ; border-radius: 10px;">
+       <span style="color: #2c62c7; font-size: 25px;"><b> INGRESE SUS DATOS</b> </span> <br> <br> <br>
+        <label for="nombre" style="padding-left: 20px;">
+            
+            Nombre y apellido 
+            <input type="text" name="nombre" id="nombre" required style="outline-style: none;">
+        </label> 
+
+        <label for="email" >
+           <span style="padding-left: 40px;"> Correo electronico</span>
+            <input type="email" name="email" id="email" required >
+        </label> <br> <br> <br>
+
+        <label for="direccion" style="padding-left:20px ;">
+        <span style="padding-right: 55px;">Direccion</span>
+        <input type="text" name="direccion" id="direccion" required>
+    </label> 
+
+    <label for="telefono">
+        <span style="padding-left: 45px; padding-right: 57px;">Telefono </span>
+        <input type="number" name="telefono" id="telefono" required>
+    </label> <br> <br> <br>
+
+    <label for="mensaje">
+        <span style="padding-left: 30%;">Mensaje</span> <br>
+        <textarea name="mensaje" id="mensaje" style="width: 250px; height: 90px; margin-left: 30%;"></textarea>
+    </label> <br>
+
+    <label for="enviar">
+        <input type="submit" name="enviar" id="enviar" value="ENVIAR" style="margin-left: 40%; 
+        background-color: #2c62c7; color:white; width: 120px; height: 40px; font-weight: bold;">
+    </label>
+    </form> <br> <br>
+
+    <form action="" style="background-color: white; margin-left: 25%; margin-right: 30% ; background-color: white ; border-radius: 10px; padding-left: 80px;">
+        <span style="color: #2c62c7; font-size: 25px; padding-left: 80px; "><b> ¿QUIERES SABER MAS?</b> </span> <br> <br> <br>
+        <span>Puedes contactarnos a traves de nuestras redes sociales <br> para saber mas sobre nuestros productos</span>
+        <br> <br> <br>
+        <img src="imagenes/facebook.svg" alt="" style="width: 40px; height: 40px; padding-right: 20px; padding-left: 50px;">
+        <img src="imagenes/whatsapp.svg" alt="" style="width: 40px; height: 40px; padding-right: 20px; padding-left: 50px;">
+        <img src="imagenes/correo.svg" alt="" style="width: 40px; height: 40px; padding-left: 50px;">
+    </form>
+
+</body>
+</html>
